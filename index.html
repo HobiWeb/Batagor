@@ -1,0 +1,864 @@
+<html class="scroll-smooth" lang="id">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Batagor Fraby - Renyah di Luar, Lumer di Lidah
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Poppins', sans-serif;
+    }
+    /* Custom scrollbar for testimonial carousel */
+    .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+    }
+    .scrollbar-hide {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+ </head>
+ <body class="bg-white text-gray-900">
+  <!-- Header -->
+  <header class="fixed w-full bg-white shadow-md z-50">
+   <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+    <a class="flex items-center space-x-2" href="#beranda">
+     <img alt="Logo Batagor Fraby, batagor lucu dengan ekspresi ceria berwarna merah dan kuning" class="w-12 h-12" height="48" loading="lazy" src="batagor.png" width="48"/>
+     <span class="text-2xl font-bold text-red-600 select-none">
+      Batagor Fraby
+     </span>
+    </a>
+    <nav>
+     <ul class="hidden md:flex space-x-8 font-semibold text-red-600">
+      <li>
+       <a class="hover:text-yellow-500 transition" href="#beranda">
+        Beranda
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-yellow-500 transition" href="#menu">
+        Menu
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-yellow-500 transition" href="#promo">
+        Promo
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-yellow-500 transition" href="#testimoni">
+        Testimoni
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-yellow-500 transition" href="#kontak">
+        Kontak
+       </a>
+      </li>
+     </ul>
+     <button aria-label="Toggle menu" class="md:hidden text-red-600 focus:outline-none focus:ring-2 focus:ring-red-600" id="menu-btn">
+      <i class="fas fa-bars fa-lg">
+      </i>
+     </button>
+    </nav>
+   </div>
+   <div class="hidden md:hidden bg-white border-t border-red-600" id="mobile-menu">
+    <ul class="flex flex-col space-y-3 px-6 py-4 font-semibold text-red-600">
+     <li>
+      <a class="block hover:text-yellow-500 transition" href="#beranda">
+       Beranda
+      </a>
+     </li>
+     <li>
+      <a class="block hover:text-yellow-500 transition" href="#menu">
+       Menu
+      </a>
+     </li>
+     <li>
+      <a class="block hover:text-yellow-500 transition" href="#promo">
+       Promo
+      </a>
+     </li>
+     <li>
+      <a class="block hover:text-yellow-500 transition" href="#testimoni">
+       Testimoni
+      </a>
+     </li>
+     <li>
+      <a class="block hover:text-yellow-500 transition" href="#kontak">
+       Kontak
+      </a>
+     </li>
+    </ul>
+   </div>
+  </header>
+  <!-- Hero Section -->
+  <section aria-label="Hero section with Batagor Fraby headline and call to action" class="pt-24 bg-yellow-50" id="beranda">
+   <div class="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center px-6 md:px-12 py-12 md:py-20 gap-10">
+    <div class="flex-1 text-center md:text-left">
+     <h1 class="text-4xl md:text-5xl font-extrabold text-red-600 leading-tight">
+      Batagor Fraby -
+      <br/>
+      Renyah di Luar, Lumer di Lidah
+     </h1>
+     <p class="mt-4 text-lg text-gray-700 max-w-md mx-auto md:mx-0">
+      Nikmati kelezatan batagor khas Indonesia dengan cita rasa autentik dan saus spesial kami.
+     </p>
+     <a class="inline-block mt-8 px-8 py-3 bg-red-600 text-white font-semibold rounded-full shadow-lg hover:bg-red-700 transition" href="#kontak">
+      Pesan Sekarang
+     </a>
+    </div>
+    <div class="flex-1 max-w-md mx-auto">
+     <img alt="Gambar batagor khas Indonesia yang menggugah selera dengan saus kacang kental dan taburan daun bawang segar" class="rounded-xl shadow-lg w-full h-auto object-cover" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/118a99f3-9744-4a7f-6dd1-e0bb5209407d.jpg" width="600"/>
+    </div>
+   </div>
+  </section>
+ <!-- Menu Section -->
+ <section aria-label="Menu Batagor Fraby with variants and prices" class="max-w-7xl mx-auto px-6 md:px-12 py-16" id="menu">
+  <h2 class="text-3xl font-bold text-red-600 text-center mb-12">
+   Menu Batagor Fraby
+  </h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+   <article class="bg-yellow-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+    <img alt="Foto Batagor Original, batagor goreng berwarna keemasan dengan saus kacang dan taburan bawang goreng" class="w-full h-48 object-cover" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/ab54405f-9319-4be4-e638-8db9f7b3754e.jpg" width="400"/>
+    <div class="p-5">
+     <h3 class="text-xl font-semibold text-red-600 mb-2">
+       Batagor Spesial 1
+     </h3>
+     <p class="text-gray-700 mb-4">
+       Tahu isi ikan, siomay isi ikan, otak-otak, tahu goreng crispy, kentang goreng, dan bumbu kacang
+     </p>
+     <p class="text-lg font-bold text-red-600">
+      Rp20.000
+     </p>
+    </div>
+   </article>
+   <article class="bg-yellow-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+    <img alt="Foto Batagor Pedas, batagor goreng dengan saus sambal merah pedas dan taburan cabai segar" class="w-full h-48 object-cover" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/bcf297bb-a1b6-4d66-463f-075b4c1b54dc.jpg" width="400"/>
+    <div class="p-5">
+     <h3 class="text-xl font-semibold text-red-600 mb-2">
+       Batagor Spesial 2
+     </h3>
+     <p class="text-gray-700 mb-4">
+       Tahu isi ikan, siomay isi ikan, otak-otak, bakso ikan goreng, dan bumbu kacang
+     </p>
+     <p class="text-lg font-bold text-red-600">
+      Rp21.000
+     </p>
+    </div>
+   </article>
+   <article class="bg-yellow-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+    <img alt="Foto Batagor Keju, batagor goreng dengan topping keju leleh berwarna kuning keemasan" class="w-full h-48 object-cover" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/1fb4f909-0033-4de4-3a7d-447dc9ca4564.jpg" width="400"/>
+    <div class="p-5">
+     <h3 class="text-xl font-semibold text-red-600 mb-2">
+       Batagor Komplit
+     </h3>
+     <p class="text-gray-700 mb-4">
+       Tahu isi ikan, siomay isi ikan, otak-otak, bakso ikan goreng, tahu goreng crispy, kentang goreng, puyuh goreng, dan bumbu kacang
+     </p>
+     <p class="text-lg font-bold text-red-600">
+      Rp23.500
+     </p>
+    </div>
+   </article>
+   <article class="bg-yellow-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+    <img alt="Foto Batagor Jagung, batagor goreng dengan campuran jagung manis dan saus kacang" class="w-full h-48 object-cover" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/92ae05b5-e4de-48c1-18a4-187708ef576e.jpg" width="400"/>
+    <div class="p-5">
+     <h3 class="text-xl font-semibold text-red-600 mb-2">
+       Batagor Hemat
+     </h3>
+     <p class="text-gray-700 mb-4">
+       Tagor, otak-otak, siomay goreng, tahu isi ikan dan bumbu kacang
+     </p>
+     <p class="text-lg font-bold text-red-600">
+      Rp15.000
+     </p>
+    </div>
+   </article>
+   <article class="bg-yellow-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+    <img alt="Foto Batagor Sapi Lada Hitam, batagor goreng dengan isian daging sapi dan saus lada hitam pekat" class="w-full h-48 object-cover" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/aab2132e-4ae1-459b-c801-6a8ce7e7da2a.jpg" width="400"/>
+    <div class="p-5">
+     <h3 class="text-xl font-semibold text-red-600 mb-2">
+       Bagora 
+     </h3>
+     <p class="text-gray-700 mb-4">
+       Bakso ikan dan otak-otak ikan dengan tekstur kenyal, rasa gurih, dan bumbu kacang
+     </p>
+     <p class="text-lg font-bold text-red-600">
+      Rp24.500
+     </p>
+    </div>
+   </article>
+   <article class="bg-yellow-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+    <img alt="Foto Batagor Sayur, batagor goreng dengan isian sayuran segar dan saus kacang" class="w-full h-48 object-cover" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fd93fdd1-be42-4deb-1138-4e84746ce009.jpg" width="400"/>
+    <div class="p-5">
+     <h3 class="text-xl font-semibold text-red-600 mb-2">
+       Combo Nagih
+     </h3>
+     <p class="text-gray-700 mb-4">
+       Pentol, siomay goreng dan bumbu kacang
+     </p>
+     <p class="text-lg font-bold text-red-600">
+      Rp21.500
+     </p>
+    </div>
+   </article>
+   <article class="bg-yellow-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+     <img alt="Foto Batagor Sayur, batagor goreng dengan isian sayuran segar dan saus kacang" class="w-full h-48 object-cover" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fd93fdd1-be42-4deb-1138-4e84746ce009.jpg" width="400"/>
+     <div class="p-5">
+      <h3 class="text-xl font-semibold text-red-600 mb-2">
+        Combo Nagih
+      </h3>
+      <p class="text-gray-700 mb-4">
+        Pentol, siomay goreng dan bumbu kacang
+      </p>
+      <p class="text-lg font-bold text-red-600">
+       Rp21.500
+      </p>
+     </div>
+    </article>
+    <article class="bg-yellow-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+     <img alt="Foto Batagor Sayur, batagor goreng dengan isian sayuran segar dan saus kacang" class="w-full h-48 object-cover" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fd93fdd1-be42-4deb-1138-4e84746ce009.jpg" width="400"/>
+     <div class="p-5">
+      <h3 class="text-xl font-semibold text-red-600 mb-2">
+       Batagor Siomay Goreng
+      </h3>
+      <p class="text-gray-700 mb-4">
+       Batagor siomay isi ikan digoreng dan bumbu kacang
+      </p>
+      <p class="text-lg font-bold text-red-600">
+       Rp19.000
+      </p>
+     </div>
+    </article>
+    <article class="bg-yellow-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+     <img alt="Foto Batagor Sayur, batagor goreng dengan isian sayuran segar dan saus kacang" class="w-full h-48 object-cover" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fd93fdd1-be42-4deb-1138-4e84746ce009.jpg" width="400"/>
+     <div class="p-5">
+      <h3 class="text-xl font-semibold text-red-600 mb-2">
+       Batagor Tahu Isi Ikan
+      </h3>
+      <p class="text-gray-700 mb-4">
+        Pentol, siomay goreng dan bumbu kacangBatagor tahu isi ikan digoreng dan bumbu kacang
+      </p>
+      <p class="text-lg font-bold text-red-600">
+       Rp20.000
+      </p>
+     </div>
+    </article>
+    <article class="bg-yellow-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+     <img alt="Foto Batagor Sayur, batagor goreng dengan isian sayuran segar dan saus kacang" class="w-full h-48 object-cover" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fd93fdd1-be42-4deb-1138-4e84746ce009.jpg" width="400"/>
+     <div class="p-5">
+      <h3 class="text-xl font-semibold text-red-600 mb-2">
+       Tagor (Tahu Goreng Crispy)
+      </h3>
+      <p class="text-gray-700 mb-4">
+       Tahu goreng dibalut dengan adonan tepung dengan rasa gurih dan bumbu kacang
+      </p>
+      <p class="text-lg font-bold text-red-600">
+       Rp14.000
+      </p>
+     </div>
+    </article>
+    <article class="bg-yellow-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+     <img alt="Foto Batagor Sayur, batagor goreng dengan isian sayuran segar dan saus kacang" class="w-full h-48 object-cover" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fd93fdd1-be42-4deb-1138-4e84746ce009.jpg" width="400"/>
+     <div class="p-5">
+      <h3 class="text-xl font-semibold text-red-600 mb-2">
+       Pugor (Telor Puyuh Goreng)
+      </h3>
+      <p class="text-gray-700 mb-4">
+       Telor puyuh dibalut dengan adonan tepung dengan rasa gurih dan bumbu kacang
+      </p>
+      <p class="text-lg font-bold text-red-600">
+       Rp21.000
+      </p>
+     </div>
+    </article>
+    <article class="bg-yellow-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+     <img alt="Foto Batagor Sayur, batagor goreng dengan isian sayuran segar dan saus kacang" class="w-full h-48 object-cover" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fd93fdd1-be42-4deb-1138-4e84746ce009.jpg" width="400"/>
+     <div class="p-5">
+      <h3 class="text-xl font-semibold text-red-600 mb-2">
+       Pentol Halus Original
+      </h3>
+      <p class="text-gray-700 mb-4">
+       20 Pcs pentol tekstur kenyal dengan rasa gurih, saus, dan saus sambal
+      </p>
+      <p class="text-lg font-bold text-red-600">
+       Rp19.000
+      </p>
+     </div>
+    </article>
+    <article class="bg-yellow-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+     <img alt="Foto Batagor Sayur, batagor goreng dengan isian sayuran segar dan saus kacang" class="w-full h-48 object-cover" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fd93fdd1-be42-4deb-1138-4e84746ce009.jpg" width="400"/>
+     <div class="p-5">
+      <h3 class="text-xl font-semibold text-red-600 mb-2">
+       Pentol Halus Bumbu Kacang
+      </h3>
+      <p class="text-gray-700 mb-4">
+       20 Pcs pentol tekstur kenyal dengan rasa gurih dan bumbu kacang
+      </p>
+      <p class="text-lg font-bold text-red-600">
+       Rp20.500
+      </p>
+     </div>
+    </article>
+    <article class="bg-yellow-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+     <img alt="Foto Batagor Sayur, batagor goreng dengan isian sayuran segar dan saus kacang" class="w-full h-48 object-cover" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fd93fdd1-be42-4deb-1138-4e84746ce009.jpg" width="400"/>
+     <div class="p-5">
+      <h3 class="text-xl font-semibold text-red-600 mb-2">
+       Ice Tea
+      </h3>
+      <p class="text-gray-700 mb-4">
+       Rasa teh dengan perpaduan wangi vanili
+      </p>
+      <p class="text-lg font-bold text-red-600">
+       Rp5.000
+      </p>
+     </div>
+    </article>
+    <article class="bg-yellow-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+     <img alt="Foto Batagor Sayur, batagor goreng dengan isian sayuran segar dan saus kacang" class="w-full h-48 object-cover" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fd93fdd1-be42-4deb-1138-4e84746ce009.jpg" width="400"/>
+     <div class="p-5">
+      <h3 class="text-xl font-semibold text-red-600 mb-2">
+       Ice Orange Tea
+      </h3>
+      <p class="text-gray-700 mb-4">
+       Rasa teh vanili dicampur dengan segarnya jeruk mandarin
+      </p>
+      <p class="text-lg font-bold text-red-600">
+       Rp10.000
+      </p>
+     </div>
+    </article>
+    <article class="bg-yellow-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+     <img alt="Foto Batagor Sayur, batagor goreng dengan isian sayuran segar dan saus kacang" class="w-full h-48 object-cover" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fd93fdd1-be42-4deb-1138-4e84746ce009.jpg" width="400"/>
+     <div class="p-5">
+      <h3 class="text-xl font-semibold text-red-600 mb-2">
+       Coconut Shake
+      </h3>
+      <p class="text-gray-700 mb-4">
+       Sensasi segar dari kelapa asli dengan rasa creamy dan manis yang pas
+      </p>
+      <p class="text-lg font-bold text-red-600">
+       Rp19.000
+      </p>
+     </div>
+    </article>
+    <article class="bg-yellow-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+     <img alt="Foto Batagor Sayur, batagor goreng dengan isian sayuran segar dan saus kacang" class="w-full h-48 object-cover" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fd93fdd1-be42-4deb-1138-4e84746ce009.jpg" width="400"/>
+     <div class="p-5">
+      <h3 class="text-xl font-semibold text-red-600 mb-2">
+       Dark Chocolate Ice
+      </h3>
+      <p class="text-gray-700 mb-4">
+       Minuman rasa coklat premium dengan rasa yang kaya akan coklat dan manis yang pas
+      </p>
+      <p class="text-lg font-bold text-red-600">
+       Rp17.000
+      </p>
+     </div>
+    </article>
+    <article class="bg-yellow-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+     <img alt="Foto Batagor Sayur, batagor goreng dengan isian sayuran segar dan saus kacang" class="w-full h-48 object-cover" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fd93fdd1-be42-4deb-1138-4e84746ce009.jpg" width="400"/>
+     <div class="p-5">
+      <h3 class="text-xl font-semibold text-red-600 mb-2">
+       Dark Chocolate Blended
+      </h3>
+      <p class="text-gray-700 mb-4">
+       Es batu di-blend dengan coklat premium dengan rasa yang kaya akan coklat dan manis yang pas
+      </p>
+      <p class="text-lg font-bold text-red-600">
+       Rp18.000
+      </p>
+     </div>
+    </article>
+    <article class="bg-yellow-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+     <img alt="Foto Batagor Sayur, batagor goreng dengan isian sayuran segar dan saus kacang" class="w-full h-48 object-cover" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fd93fdd1-be42-4deb-1138-4e84746ce009.jpg" width="400"/>
+     <div class="p-5">
+      <h3 class="text-xl font-semibold text-red-600 mb-2">
+       Air Mineral
+      </h3>
+      <p class="text-gray-700 mb-4">
+       Air Mineral Kemasan 600Ml
+      </p>
+      <p class="text-lg font-bold text-red-600">
+       Rp5.000
+      </p>
+     </div>
+    </article>
+  </div>
+ </section>
+ <!-- Promo Section -->
+ <section aria-label="Promo section with current discounts and offers" class="bg-red-600 text-yellow-50 py-16 px-6 md:px-12" id="promo">
+  <div class="max-w-7xl mx-auto text-center">
+   <h2 class="text-3xl font-bold mb-8">
+    Promo Spesial Batagor Fraby
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+    <div class="bg-yellow-400 rounded-xl p-6 shadow-lg hover:shadow-2xl transition cursor-pointer">
+     <h3 class="text-xl font-semibold mb-3 text-red-700">
+      Diskon Ulang Tahun
+     </h3>
+     <p class="text-red-900 font-semibold">
+      Dapatkan potongan 20% untuk semua menu selama bulan ulang tahun Batagor Fraby!
+     </p>
+    </div>
+    <div class="bg-yellow-400 rounded-xl p-6 shadow-lg hover:shadow-2xl transition cursor-pointer">
+     <h3 class="text-xl font-semibold mb-3 text-red-700">
+      Beli 2 Gratis 1
+     </h3>
+     <p class="text-red-900 font-semibold">
+      Beli 2 porsi Batagor, dapatkan 1 porsi gratis. Berlaku untuk semua varian.
+     </p>
+    </div>
+    <div class="bg-yellow-400 rounded-xl p-6 shadow-lg hover:shadow-2xl transition cursor-pointer">
+     <h3 class="text-xl font-semibold mb-3 text-red-700">
+      Gratis Ice Tea
+     </h3>
+     <p class="text-red-900 font-semibold">
+      Dapatkan setiap pembelian Rp.100.000 .
+     </p>
+    </div>
+   </div>
+  </div>
+ </section>
+ <!-- Testimoni Section -->
+ <section aria-label="Customer testimonials carousel" class="max-w-7xl mx-auto px-6 md:px-12 py-16" id="testimoni">
+  <h2 class="text-3xl font-bold text-red-600 text-center mb-12">
+   Testimoni Pelanggan
+  </h2>
+  <div aria-label="Testimoni pelanggan Batagor Fraby" aria-roledescription="carousel" class="flex overflow-x-auto scrollbar-hide space-x-6 snap-x snap-mandatory" id="testimonial-carousel" tabindex="0">
+   <figure aria-label="Testimoni 1" aria-roledescription="slide" class="flex-shrink-0 w-80 bg-yellow-50 rounded-xl p-6 shadow-md snap-center" role="group">
+    <blockquote class="text-gray-800 italic mb-4">
+     "Batagor Fraby benar-benar juara! Rasanya renyah dan saus kacangnya bikin nagih."
+    </blockquote>
+    <figcaption class="flex items-center space-x-4">
+     <img alt="Foto pelanggan pria muda tersenyum puas dengan latar belakang dapur Batagor Fraby" class="w-12 h-12 rounded-full object-cover" height="48" loading="lazy" src="https://storage.googleapis.com/a1aa/image/4d2f5318-d30c-46cb-1983-839de17582ee.jpg" width="48"/>
+     <div>
+      <p class="font-semibold text-red-600">
+       Rizky
+      </p>
+      <p class="text-sm text-gray-600">
+       Jakarta
+      </p>
+     </div>
+    </figcaption>
+   </figure>
+   <figure aria-label="Testimoni 2" aria-roledescription="slide" class="flex-shrink-0 w-80 bg-yellow-50 rounded-xl p-6 shadow-md snap-center" role="group">
+    <blockquote class="text-gray-800 italic mb-4">
+     "Pelayanan cepat dan batagornya selalu fresh. Favorit keluarga kami!"
+    </blockquote>
+    <figcaption class="flex items-center space-x-4">
+     <img alt="Foto pelanggan wanita muda tersenyum ceria sambil memegang piring batagor" class="w-12 h-12 rounded-full object-cover" height="48" loading="lazy" src="https://storage.googleapis.com/a1aa/image/14c07f97-a77b-4f7b-7720-29071d4c3307.jpg" width="48"/>
+     <div>
+      <p class="font-semibold text-red-600">
+       Sari
+      </p>
+      <p class="text-sm text-gray-600">
+       Bandung
+      </p>
+     </div>
+    </figcaption>
+   </figure>
+   <figure aria-label="Testimoni 3" aria-roledescription="slide" class="flex-shrink-0 w-80 bg-yellow-50 rounded-xl p-6 shadow-md snap-center" role="group">
+    <blockquote class="text-gray-800 italic mb-4">
+     "Batagor pedasnya mantap! Bikin ketagihan dan selalu pesan lagi."
+    </blockquote>
+    <figcaption class="flex items-center space-x-4">
+     <img alt="Foto pelanggan pria dewasa dengan ekspresi puas sambil memegang batagor pedas" class="w-12 h-12 rounded-full object-cover" height="48" loading="lazy" src="https://storage.googleapis.com/a1aa/image/668f2ac7-2085-424c-90bc-1d91fdd5800f.jpg" width="48"/>
+     <div>
+      <p class="font-semibold text-red-600">
+       Andi
+      </p>
+      <p class="text-sm text-gray-600">
+       Surabaya
+      </p>
+     </div>
+    </figcaption>
+   </figure>
+   <figure aria-label="Testimoni 4" aria-roledescription="slide" class="flex-shrink-0 w-80 bg-yellow-50 rounded-xl p-6 shadow-md snap-center" role="group">
+    <blockquote class="text-gray-800 italic mb-4">
+     "Keju lelehnya bikin batagor ini beda dari yang lain. Recomended banget!"
+    </blockquote>
+    <figcaption class="flex items-center space-x-4">
+     <img alt="Foto pelanggan wanita dewasa tersenyum dengan latar belakang restoran Batagor Fraby" class="w-12 h-12 rounded-full object-cover" height="48" loading="lazy" src="https://storage.googleapis.com/a1aa/image/e750fba5-2e2d-48cf-3c6a-06ea2e9a5310.jpg" width="48"/>
+     <div>
+      <p class="font-semibold text-red-600">
+       Maya
+      </p>
+      <p class="text-sm text-gray-600">
+       Yogyakarta
+      </p>
+     </div>
+    </figcaption>
+   </figure>
+   <figure aria-label="Testimoni 5" aria-roledescription="slide" class="flex-shrink-0 w-80 bg-yellow-50 rounded-xl p-6 shadow-md snap-center" role="group">
+    <blockquote class="text-gray-800 italic mb-4">
+     "Sangat puas dengan rasa dan kualitasnya. Batagor Fraby jadi langganan kami."
+    </blockquote>
+    <figcaption class="flex items-center space-x-4">
+     <img alt="Foto pelanggan pria paruh baya tersenyum puas dengan latar belakang dapur Batagor Fraby" class="w-12 h-12 rounded-full object-cover" height="48" loading="lazy" src="https://storage.googleapis.com/a1aa/image/c750477c-49ec-46d5-d1d3-956f3c707f19.jpg" width="48"/>
+     <div>
+      <p class="font-semibold text-red-600">
+       Budi
+      </p>
+      <p class="text-sm text-gray-600">
+       Medan
+      </p>
+     </div>
+    </figcaption>
+   </figure>
+  </div>
+ </section>
+  <!-- Tentang Kami Section -->
+  <section aria-label="About Batagor Fraby story and commitment" class="bg-yellow-50 py-16 px-6 md:px-12" id="tentang-kami">
+   <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
+    <div class="flex-1 max-w-md mx-auto md:mx-0">
+     <img alt="Maskot Fraby, batagor lucu dengan ekspresi ceria berwarna merah dan kuning, melambangkan brand Batagor Fraby" class="rounded-xl shadow-lg w-full h-auto object-cover" height="400" loading="lazy" src="batagor.png" width="600"/>
+    </div>
+    <div class="flex-1 max-w-xl text-center md:text-left">
+     <h2 class="text-3xl font-bold text-red-600 mb-6">
+      Tentang Batagor Fraby
+     </h2>
+     <p class="text-gray-700 mb-4 leading-relaxed">
+      Batagor Fraby lahir dari kecintaan kami terhadap kuliner khas Indonesia, khususnya batagor yang renyah dan lezat. Kami berkomitmen menghadirkan rasa autentik dengan bahan berkualitas dan resep turun-temurun yang selalu menjaga cita rasa terbaik.
+     </p>
+     <p class="text-gray-700 leading-relaxed">
+      Dengan maskot Fraby yang ceria, kami ingin membawa kebahagiaan dan kelezatan ke setiap gigitan batagor kami. Nikmati pengalaman kuliner yang tak terlupakan bersama Batagor Fraby!
+     </p>
+    </div>
+   </div>
+  </section>
+  <!-- Kontak Section -->
+  <section aria-label="Contact and order form section" class="max-w-7xl mx-auto px-6 md:px-12 py-16" id="kontak">
+   <h2 class="text-3xl font-bold text-red-600 text-center mb-12">
+    Kontak &amp; Pemesanan
+   </h2>
+   <div class="flex flex-col md:flex-row gap-12 max-w-5xl mx-auto">
+    <div class="flex-1 bg-yellow-50 rounded-xl p-8 shadow-md">
+     <h3 class="text-xl font-semibold text-red-600 mb-6">
+      Hubungi Kami
+     </h3>
+     <p class="mb-4 text-gray-700">
+      <i class="fas fa-map-marker-alt text-red-600 mr-3">
+      </i>
+      <p>1.	Cluster sorrento H 2 no 41 Pakuwon City - Laguna </p> 
+      <p>2. Tenggilis Mejoyo Ai no 33-34 Pujasera Mas Bro </p>	
+      <p>3.	Jalan Pemuda,Food Court E-mall WTC lt 6 blok G 1
+     <p class="mb-4 text-gray-700">
+      <i class="fas fa-phone-alt text-red-600 mr-3">
+      </i>
+      <a class="hover:text-yellow-500 transition" href="tel:+6281234567890">
+        +6285370007467
+      </a>
+     </p>
+     <p class="mb-4 text-gray-700">
+      <i class="fab fa-whatsapp text-red-600 mr-3">
+      </i>
+      <a class="hover:text-yellow-500 transition" href="https://wa.me/6281234567890" rel="noopener" target="_blank">
+       Chat WhatsApp
+      </a>
+     </p>
+     <p class="mb-4 text-gray-700">
+      <i class="fas fa-clock text-red-600 mr-3">
+      </i>
+      Senin - Minggu: 09.00 - 21.00 WIB
+     </p>
+     <div class="flex space-x-4 mt-6">
+      <a aria-label="Facebook" class="text-red-600 hover:text-yellow-500 transition text-2xl" href="https://facebook.com/batagorfraby" rel="noopener" target="_blank">
+       <i class="fab fa-facebook-square">
+       </i>
+      </a>
+      <a aria-label="Instagram" class="text-red-600 hover:text-yellow-500 transition text-2xl" href="https://instagram.com/batagorfraby" rel="noopener" target="_blank">
+       <i class="fab fa-instagram">
+       </i>
+      </a>
+      <a aria-label="Twitter" class="text-red-600 hover:text-yellow-500 transition text-2xl" href="https://twitter.com/batagorfraby" rel="noopener" target="_blank">
+       <i class="fab fa-twitter-square">
+       </i>
+      </a>
+     </div>
+    </div>
+    <form action="" aria-label="Formulir pemesanan Batagor Fraby" class="flex-1 bg-yellow-50 rounded-xl p-8 shadow-md" method="POST" id="order-form">
+     <h3 class="text-xl font-semibold text-red-600 mb-6">
+      Formulir Pemesanan
+     </h3>
+     <div class="mb-4">
+      <label class="block text-gray-700 font-semibold mb-2" for="name">
+       Nama Lengkap
+      </label>
+      <input class="w-full rounded-md border border-red-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-600" id="name" name="name" placeholder="Masukkan nama lengkap Anda" required="" type="text"/>
+     </div>
+     <div class="mb-4">
+      <label class="block text-gray-700 font-semibold mb-2" for="phone">
+       Nomor Telepon / WhatsApp
+      </label>
+      <input class="w-full rounded-md border border-red-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-600" id="phone" name="phone" placeholder="Masukkan nomor telepon atau WhatsApp" required="" type="tel"/>
+     </div>
+     <div class="mb-4 grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <div>
+       <label class="block text-gray-700 font-semibold mb-2" for="order">
+        Pesanan Makanan
+       </label>
+       <select class="w-full rounded-md border border-red-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-600" id="order" name="order" required="">
+        <option disabled="" selected="" value="">
+         Pilih varian batagor
+        </option>
+        <option value="Batagor Spesial 1">
+         Batagor Spesial 1
+        </option>
+        <option value="Batagor Spesial 2">
+         Batagor Spesial 2
+        </option>
+        <option value="Batagor Komplit">
+         Batagor Komplit
+        </option>
+        <option value="Batagor Hemat">
+         Batagor Hemat
+        </option>
+        <option value="Bagora">
+         Bagora
+        </option>
+        <option value="Combo Nagih">
+         Combo Nagih
+        </option>
+        <option value="Batagor Siomay Goreng">
+         Batagor Siomay Goreng
+        </option>
+        <option value="Batagor Tahu Isi Ikan">
+         Batagor Tahu Isi Ikan
+        </option>
+        <option value="Tagor (Tahu Goreng Crispy)">
+         Tagor (Tahu Goreng Crispy)
+        </option>
+        <option value="Pugor (Telor Puyuh Goreng)">
+         Pugor (Telor Puyuh Goreng)
+        </option>
+        <option value="Pentol Halus Original">
+         Pentol Halus Original
+        </option>
+        <option value="Pentol Halus Bumbu Kacang">
+         Pentol Halus Bumbu Kacang
+        </option>
+
+        </option>
+       </select>
+      </div>
+      <div>
+       <label class="block text-gray-700 font-semibold mb-2" for="order-drink">
+        Pesanan Minuman
+       </label>
+       <select class="w-full rounded-md border border-red-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-600" id="order-drink" name="order-drink">
+        <option disabled="" selected="" value="">
+         Pilih minuman (opsional)
+        </option>
+        <option value="Ice Tea">
+         Ice Tea
+        </option>
+        <option value="Ice Orange Tea">
+         Ice Orange Tea
+        </option>
+        <option value="Coconut Shake">
+         Coconut Shake
+        </option>
+        <option value="Dark Chocolate Ice">
+         Dark Chocolate Ice
+        </option>
+        <option value="Dark Chocolate Blended">
+         Dark Chocolate Blended
+        </option>
+        <option value="Air Mineral">
+         Air Mineral
+        </option>
+
+       </select>
+      </div>
+     </div>
+     <div class="mb-4 grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <div>
+       <label class="block text-gray-700 font-semibold mb-2" for="quantity-food">
+        Jumlah Makanan
+       </label>
+       <input class="w-full rounded-md border border-red-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-600" id="quantity-food" min="1" name="quantity-food" required="" type="number" value="1"/>
+      </div>
+      <div>
+       <label class="block text-gray-700 font-semibold mb-2" for="quantity-drink">
+        Jumlah Minuman
+       </label>
+       <input class="w-full rounded-md border border-red-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-600" id="quantity-drink" min="0" name="quantity-drink" type="number" value="0"/>
+      </div>
+     </div>
+     <div class="mb-4">
+      <label class="block text-gray-700 font-semibold mb-2" for="notes">
+       Catatan (opsional)
+      </label>
+      <textarea class="w-full rounded-md border border-red-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-600 resize-none" id="notes" name="notes" placeholder="Misal: tanpa kacang, tambah sambal, dll." rows="3"></textarea>
+     </div>
+     <div class="mb-6">
+      <p class="text-lg font-bold text-red-600" id="total-price">
+       Total Harga: Rp0
+      </p>
+     </div>
+    <button class="w-full bg-red-600 text-white font-semibold py-3 rounded-full hover:bg-red-700 transition" type="button" id="print-receipt">
+     Simpan Pesanan
+    </button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script>
+     document.getElementById('print-receipt').addEventListener('click', () => {
+       const name = document.getElementById('name').value;
+       const phone = document.getElementById('phone').value;
+       const food = document.getElementById('order').value;
+       const foodQuantity = document.getElementById('quantity-food').value;
+       const drink = document.getElementById('order-drink').value || 'Tidak ada';
+       const drinkQuantity = document.getElementById('quantity-drink').value || 0;
+       const notes = document.getElementById('notes').value || 'Tidak ada';
+       const totalPrice = document.getElementById('total-price').textContent;
+
+       const receipt = `
+  Nama: ${name}
+  Nomor Telepon: ${phone}
+  Pesanan Makanan: ${food} (x${foodQuantity})
+  Pesanan Minuman: ${drink} (x${drinkQuantity})
+  Catatan: ${notes}
+  ${totalPrice}
+
+  Terima kasih telah memesan di Batagor Fraby!
+       `;
+
+       const { jsPDF } = window.jspdf;
+       const doc = new jsPDF();
+
+       doc.setFont("Arial", "normal");
+       doc.text(receipt, 10, 10);
+       doc.save('resi-pesanan-batagor-fraby.pdf');
+     });
+    </script>
+    </form>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-red-600 text-yellow-50 py-10 px-6 md:px-12">
+   <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+    <div class="text-center md:text-left">
+     <h3 class="text-xl font-bold mb-2">
+      Batagor Fraby
+     </h3>
+     <address class="not-italic mb-2">
+      Jl. Kuliner No. 123, Bandung, Indonesia
+     </address>
+     <p>
+      Senin - Minggu: 10.00 - 21.00 WIB
+     </p>
+    </div>
+    <div class="flex space-x-6 text-2xl">
+     <a aria-label="Facebook" class="hover:text-yellow-300 transition" href="https://facebook.com/batagorfraby" rel="noopener" target="_blank">
+      <i class="fab fa-facebook-square">
+      </i>
+     </a>
+     <a aria-label="Instagram" class="hover:text-yellow-300 transition" href="https://instagram.com/batagorfraby" rel="noopener" target="_blank">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+     <a aria-label="Twitter" class="hover:text-yellow-300 transition" href="https://twitter.com/batagorfraby" rel="noopener" target="_blank">
+      <i class="fab fa-twitter-square">
+      </i>
+     </a>
+    </div>
+   </div>
+  </footer>
+  <script>
+   // Mobile menu toggle
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Price data for each batagor variant
+    const pricesFood = {
+      "Batagor Spesial 1": 20000,
+      "Batagor Spesial 2": 21000,
+      "Batagor Komplit": 23500,
+      "Batagor Hemat": 15000,
+      "Bagora": 24500,
+      "Combo Nagih": 21500,
+      "Batagor Siomay Goreng": 19000,
+      "Batagor Tahu Isi Ikan": 20000,
+      "Tagor (Tahu Goreng Crispy)": 14000,
+      "Pugor (Telor Puyuh Goreng)": 21000,
+      "Pentol Halus Original": 19000,
+      "Pentol Halus Bumbu Kacang": 20500
+
+    };
+
+    // Price data for drinks
+    const pricesDrink = {
+      "Ice Tea": 5000,
+      "Ice Orange Tea": 10000,
+      "Coconut Shake": 19000 ,
+      "Dark Chocolate Ice": 17000,
+      "Dark Chocolate Blended": 18000,
+      "Air Mineral": 5000
+    };
+
+    const orderSelect = document.getElementById('order');
+    const quantityFoodInput = document.getElementById('quantity-food');
+    const orderDrinkSelect = document.getElementById('order-drink');
+    const quantityDrinkInput = document.getElementById('quantity-drink');
+    const totalPriceEl = document.getElementById('total-price');
+
+    function updateTotalPrice() {
+      const selectedFood = orderSelect.value;
+      const quantityFood = parseInt(quantityFoodInput.value) || 0;
+      const selectedDrink = orderDrinkSelect.value;
+      const quantityDrink = parseInt(quantityDrinkInput.value) || 0;
+
+      let totalFood = 0;
+      let totalDrink = 0;
+
+      if (selectedFood && pricesFood[selectedFood] && quantityFood > 0) {
+        totalFood = pricesFood[selectedFood] * quantityFood;
+      }
+      if (selectedDrink && pricesDrink[selectedDrink] && quantityDrink > 0) {
+        totalDrink = pricesDrink[selectedDrink] * quantityDrink;
+      }
+
+      const total = totalFood + totalDrink;
+      totalPriceEl.textContent = `Total Harga: Rp${total.toLocaleString('id-ID')}`;
+    }
+
+    // Event listeners
+    orderSelect.addEventListener('change', () => {
+      if(quantityFoodInput.value === '' || quantityFoodInput.value <= 0) {
+        quantityFoodInput.value = 1;
+      }
+      updateTotalPrice();
+    });
+    quantityFoodInput.addEventListener('input', () => {
+      if(quantityFoodInput.value < 1) quantityFoodInput.value = 1;
+      updateTotalPrice();
+    });
+    orderDrinkSelect.addEventListener('change', () => {
+      if(quantityDrinkInput.value === '' || quantityDrinkInput.value < 0) {
+        quantityDrinkInput.value = 0;
+      }
+      updateTotalPrice();
+    });
+    quantityDrinkInput.addEventListener('input', () => {
+      if(quantityDrinkInput.value < 0) quantityDrinkInput.value = 0;
+      updateTotalPrice();
+    });
+
+    // Initialize total price on page load
+    window.addEventListener('DOMContentLoaded', () => {
+      updateTotalPrice();
+    });
+  </script>
+  
+ </body>
+</html>
